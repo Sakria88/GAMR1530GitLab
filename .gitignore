@@ -1,1 +1,17 @@
 ECHO is on.
+# Ignore all text files
+*.txt
+
+# Ignore compiled files (e.g., object files, executables)
+*.o
+*.exe
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore all directories named "node_modules"
+node_modules/
+
+# Ignore test.txt explicitly
+test.txt
